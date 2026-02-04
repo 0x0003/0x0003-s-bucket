@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "notes": "If this app doesn't work maybe you need to clean '$dir\\igconfig.xml'.",
     "url": "https://github.com/0x0003/ImageGlass/releases/download/8.12.4.30/ImageGlass_8.12.4.30_x64.zip",
-    "hash": "sha1:0af64d67e4095e914a97b6056ac34843098fa5fb",
+    "hash": "sha1:504aafb25b20d8e66b8ea7cbddae6d7bba4e519a",
     "extract_dir": "ImageGlass_Kobe_8.12.4.30_x64",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\igconfig.xml\")) {",
