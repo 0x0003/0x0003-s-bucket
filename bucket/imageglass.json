@@ -28,7 +28,9 @@
         "Themes",
         "igconfig.xml"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/0x0003/ImageGlass"
+    },
     "autoupdate": {
         "url": "https://github.com/0x0003/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip"
     }
