@@ -1,0 +1,14 @@
+{
+    "version": "1.2.6",
+    "description": "Cloudflare WARP + Psiphon, an anti-censorship utility",
+    "homepage": "https://github.com/bepass-org/warp-plus",
+    "license": "MIT",
+    "url": "https://github.com/bepass-org/warp-plus/releases/download/v1.2.6/warp-plus_windows-amd64.zip",
+    "hash": "ef7b1f9b9b019d0518eee08bd160ef89ee8401df448d5ed3c6a47de0ff28280c",
+    "bin": [ [ "warp-plus.exe", "warp-plus", "--cache-dir $persist_dir/profile" ] ],
+    "persist": "profile",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/bepass-org/warp-plus/releases/download/v$version/warp-plus_windows-amd64.zip"
+    }
+}

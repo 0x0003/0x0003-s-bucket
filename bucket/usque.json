@@ -1,0 +1,15 @@
+{
+    "version": "1.4.2",
+    "description": "Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol.",
+    "homepage": "https://github.com/Diniboy1123/usque",
+    "license": "MIT",
+    "notes": "Run \"usque register\" and put the resulting config.json into $persist_dir\\config\\",
+    "url": "https://github.com/Diniboy1123/usque/releases/download/v1.4.2/usque_1.4.2_windows_amd64.zip",
+    "hash": "9715795569fe55e50655611a977d3d380343527ce748766e309776191759dfd0",
+    "bin": [ [ "usque.exe", "usque", "-c \"$persist_dir\\config\\config.json\"" ] ],
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Diniboy1123/usque/releases/download/v$version/usque_$version_windows_amd64.zip"
+    }
+}
