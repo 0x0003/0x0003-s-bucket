@@ -8,8 +8,13 @@
     "extract_dir": "sing-box-1.12.17-extended-1.5.3-windows-amd64",
     "bin": [ [ "sing-box.exe", "sing-box", "-D \"$persist_dir\\config\""] ],
     "persist": "config",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/shtorm-7/sing-box-extended/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v(.+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/shtorm-7/sing-box-extended/releases/download/v$version/sing-box-$version-windows-amd64.zip"
+        "url": "https://github.com/shtorm-7/sing-box-extended/releases/download/v$version/sing-box-$version-windows-amd64.zip",
+        "extract_dir": "sing-box-$version-windows-amd64"
     }
 }
