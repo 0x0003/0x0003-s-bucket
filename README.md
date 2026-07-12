@@ -9,6 +9,7 @@ scoop install 0x0003/<manifestname>
 - [imageglass (pre-webview version)](https://github.com/0x0003/ImageGlass)
 - [cantata](https://github.com/0x0003/cantata)
 - [picard (downloaded over https, unlike official bucket)](https://picard.musicbrainz.org)
+- [mpd(personal fork)](https://github.com/0x0003/MPD)
 - [sing-box-extended](https://github.com/shtorm-7/sing-box-extended)
 - [usque](https://github.com/Diniboy1123/usque/)
 - [warp-plus](https://github.com/bepass-org/warp-plus)
