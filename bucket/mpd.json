@@ -4,7 +4,7 @@
     "homepage": "https://github.com/0x0003/MPD",
     "license": "GPL-2.0-or-later",
     "url": "https://github.com/0x0003/MPD/releases/download/0.24.13-win/mpd.7z",
-    "hash": "sha256:e78491dc6dbac28f0ebac418557a1b862a4939efb46b19cfe49972b9e60f1090",
+    "hash": "cfdd77c51b3767eb013d55dfeb421815344da04224603f64d7e9f823bef56013",
     "bin": "mpd.exe",
     "checkver": "github",
     "autoupdate": {
