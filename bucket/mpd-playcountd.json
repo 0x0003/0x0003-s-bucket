@@ -1,12 +1,12 @@
 {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Minimal MPD sticker daemon that tracks playCount, lastPlayed, and firstPlayed per song",
     "homepage": "https://github.com/0x0003/mpd-playcountd",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/0x0003/mpd-playcountd/releases/download/v0.1.3/mpd-playcountd_0.1.3_windows-amd64.zip",
-            "hash": "4bf05f766a08605b0bbc07e3fd10e7e94b2dbb990e6d0fe56b7349ccf0de80c4"
+            "url": "https://github.com/0x0003/mpd-playcountd/releases/download/v0.1.4/mpd-playcountd_0.1.4_windows-amd64.zip",
+            "hash": "18608c567d5f07abafbd08346d1b496484a95b75f08c272b2eac7de155d7129d"
         }
     },
     "bin": "mpd-playcountd.exe",
