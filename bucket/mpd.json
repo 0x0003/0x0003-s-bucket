@@ -1,10 +1,10 @@
 {
-    "version": "0.24.13",
+    "version": "0.24.14",
     "description": "Music Player Daemon",
     "homepage": "https://github.com/0x0003/MPD",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/0x0003/MPD/releases/download/0.24.13-win/mpd.7z",
-    "hash": "fc75f088c4118a3b40b26958d68ed8cf4973f8c1b7a8f9dbab49592b8582319c",
+    "url": "https://github.com/0x0003/MPD/releases/download/0.24.14-win/mpd.7z",
+    "hash": "ab4f5dcf007aa4913aff64e67f9a90a803c6367e80bab0519a483c22f338aaa9",
     "bin": "mpd.exe",
     "checkver": "github",
     "autoupdate": {
